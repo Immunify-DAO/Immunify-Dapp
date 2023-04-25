@@ -1,10 +1,15 @@
 {
   "license": "MIT",
   "scripts": {
-    "start": "static .",
-    "c": "git add . && yes | auto-commit && git push"
+    "start": "static ."
   },
   "dependencies": {
+    "@cartesi/rollups": "^0.8.2",
+    "@ethersproject/providers": "^5.7.2",
+    "@wagmi/core": "^0.10.10",
+    "@web3modal/ethereum": "^2.3.6",
+    "@web3modal/html": "^2.3.6",
+    "ethers": "^6.3.0",
     "node-static": "^0.7.11"
   }
 }
